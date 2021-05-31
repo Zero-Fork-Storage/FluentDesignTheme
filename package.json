@@ -1,0 +1,61 @@
+{
+  "name": "FluentDesignTheme",
+  "version": "0.1.0",
+  "description": "A Fluent Design Theme - Gatsby",
+  "author": "Euiseo Cha <zeroday0619_dev@outlook.com>",
+  "license": "MIT",
+  "devDependencies": {
+    "@babel/register": "^7.13.16",
+    "@types/react-fontawesome": "^1.6.4",
+    "@types/react-helmet": "^6.1.1",
+    "@types/use-persisted-state": "^0.3.0",
+    "eslint": "^7.27.0",
+    "eslint-plugin-react": "^7.24.0",
+    "prettier": "^2.3.0",
+    "source-map-support": "^0.5.19",
+    "ts-node": "^10.0.0",
+    "typescript": "^4.3.2",
+    "typescript-plugin-css-modules": "^3.3.0"
+  },
+  "dependencies": {
+    "@fluentui/react": "^8.15.1",
+    "font-awesome": "^4.7.0",
+    "gatsby": "^3.6.1",
+    "gatsby-image": "^3.6.0",
+    "gatsby-plugin-manifest": "^3.6.0",
+    "gatsby-plugin-offline": "^4.6.0",
+    "gatsby-plugin-react-helmet": "^4.6.0",
+    "gatsby-plugin-sass": "^4.6.0",
+    "gatsby-plugin-sharp": "^3.6.0",
+    "gatsby-plugin-typescript": "^3.6.0",
+    "gatsby-source-filesystem": "^3.6.0",
+    "gatsby-transformer-sharp": "^3.6.0",
+    "node-sass": "^6.0.0",
+    "normalize.css": "^8.0.1",
+    "react": "^17.0.2",
+    "react-dom": "^17.0.2",
+    "react-fontawesome": "^1.7.1",
+    "react-helmet": "^6.1.0",
+    "use-persisted-state": "^0.3.3"
+  },
+  "keywords": [
+    "gatsby",
+    "fluent design",
+    "theme",
+    "microsoft"
+  ],
+  "scripts": {
+    "build": "gatsby build",
+    "develop": "gatsby develop",
+    "format": "prettier --write \"**/*.{js,jsx,json,md}\"",
+    "start": "npm run develop",
+    "serve": "gatsby serve",
+    "clean": "gatsby clean",
+    "lint:ts": "eslint . --ext .ts,.tsx",
+    "test": "echo \"Write tests! -> https://gatsby.dev/unit-testing\" && exit 1"
+  },
+  "repository": {
+    "type": "git",
+    "url": "https://github.com/zeroday0619/FluentDesignTheme"
+  }
+}
